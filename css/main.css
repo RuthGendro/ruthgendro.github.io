@@ -2,7 +2,6 @@ body {
     font-family: "Roboto", sans-serif;
     color: #2d3c49;
     font-weight: 300;
-    background-color: #29343e;
 
 }
 
@@ -10,16 +9,12 @@ hr {
     border: none;
     height: 2px;
     background-color: #7d97ad;
-    margin-bottom: 1px;
+    margin-bottom: 30px;
 }
 
 .nav li {
     list-style: none;
 
-}
-
-.banner {
-    margin-top: 20px;
 }
 
 .main {
@@ -31,21 +26,16 @@ hr {
 
 .text-thin {
     font-weight: 100;
-    color: aliceblue;
 }
 
 .title-logo {
     margin-top: 15px;
 }
 
-h2, h4 {
-    color: aliceblue;
-}
-
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
     list-style-type: none;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 0;
     overflow: hidden;
 }
@@ -55,10 +45,10 @@ ul.topnav li {float: left;}
 
 /* Style the links inside the list items */
 ul.topnav li a {
-    display: flex;
-    color: aliceblue;
+    display: inline-block;
+    color: #2d3c49;
     text-align: center;
-    padding: 12px 12px;
+    padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 20px;
@@ -69,8 +59,6 @@ ul.topnav li a:hover {background-color: #c9d6e0;}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
-
-
 
 /*Responsive Styling*/
 
