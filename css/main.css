@@ -9,7 +9,6 @@ hr {
     border: none;
     height: 2px;
     background-color: #7d97ad;
-    margin-bottom: 30px;
 }
 
 .nav li {
@@ -22,6 +21,10 @@ hr {
     border-radius: 20px;
     padding: 30px;
     margin-bottom: 20px;
+}
+
+.main-title {
+    margin-bottom: 30px;
 }
 
 .text-thin {
