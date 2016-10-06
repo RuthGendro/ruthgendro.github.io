@@ -1,3 +1,12 @@
-# ruthgendro.github.io
+# Ruth Gendro's Portfolio
 
-Portfolio website to showcase the projects I have worked on thus far. Developed using HTML5, CSS3, JavaScript, jQuery, and Bootstrap.
+A webpage built by me, intended to showcase my other web pages and projects. Created using HTML, CSS, JavaScript, jQuery, and Bootstrap.
+
+# Sections
+
+The sections of the portfolio consist of the following:
+
+* Homepage
+* Portfolio
+* About
+* Resume
