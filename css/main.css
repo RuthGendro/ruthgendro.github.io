@@ -59,6 +59,10 @@ hr {
     color: white;
 }
 
+footer a {
+    margin: 2.5px;
+}
+
 
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
