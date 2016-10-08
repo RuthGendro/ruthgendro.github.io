@@ -37,7 +37,6 @@ hr {
     margin-top: 15px;
 }
 
-
 .image h2 {
    position: absolute;
    bottom: 20px;
@@ -59,6 +58,7 @@ hr {
 #homepageLink a {
     color: white;
 }
+
 
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
