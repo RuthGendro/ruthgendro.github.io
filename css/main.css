@@ -37,6 +37,10 @@ hr {
     margin-top: 15px;
 }
 
+.linkToHomepage a {
+    text-decoration: none;
+}
+
 .image h2 {
    position: absolute;
    bottom: 20px;
