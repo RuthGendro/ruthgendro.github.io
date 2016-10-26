@@ -31,6 +31,10 @@ hr {
 
 .text-thin {
     font-weight: 100;
+    color: #2d3c49;
+}
+#titleBelowName {
+    color: #2d3c49;
 }
 
 .title-logo {
