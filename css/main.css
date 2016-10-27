@@ -67,6 +67,14 @@ hr {
     color: white;
 }
 
+.about p {
+    font-size: 20px;
+}
+
+.about img {
+    border-radius: 70px;
+}
+
 footer a {
     margin: 2.5px;
 }
