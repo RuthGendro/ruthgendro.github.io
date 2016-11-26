@@ -51,16 +51,13 @@ Include Srcset-->
     <p><a href="https://github.com/RuthGendro/WingsWildlifeStudio">Source Code</a></p>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                <a><img class="img-responsive" src="img/smallFishing.png" srcset="img/mediumFishing.png 500w" alt="Fishing Map"></a>
-                 <div class="hover">
-                    <p>Built this web app to display a map of lakes that my boyfriend and I have fished at, and how many fish were caught each trip. It's a single-page web application, built using the Knockout framework, that displays a Google Map of an area and all of the lakes we have visited. Users can search all included lakes and, when a marker is selected, additional information about a lake is presented from the FourSquare API. There's also custom map styling and custom marker changes. Trip data appears at the bottom of the info window when it's open.
-                    </p>
-                </div>
-                <h3 class="text-center"><a href="https://ruthgendro.github.io/neighborhood-map/">Fishing Data Map</a></h3>
-                <p class="text-center"><a class="githubLink" href="https://github.com/RuthGendro/neighborhood-map">Github Repository</a></p>
-                <p>Technologies Used: JavaScript, jQuery, Knockout, API services, AJAX, version control</p>
+             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <img class="portfolio-img img-responsive" src="img/smallFishing.png" alt="Fishing Data Screenshot" data-toggle="modal" data-target=".fishing-modal">
+    <h3>Fishing Data Map</h3>
+    <p><a href="https://ruthgendro.github.io/neighborhood-map/">Preview Project</a></p>
+    <p><a href="https://github.com/RuthGendro/neighborhood-map">Source Code</a></p>
             </div>
+
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                 <a><img class="img-responsive" src="img/smallAngularResume.png" srcset="img/mediumAngularResume.png 500w" alt="Angular Resume"></a>
                                 <div class="hover">
@@ -94,7 +91,7 @@ Include Srcset-->
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Project</h4>
+        <h4 class="modal-title">Wings Wildlife Studio</h4>
       </div>
       <div class="modal-body">
 		<p>(In progress) - waiting on client info and images before I can finish. <br><br>
@@ -110,7 +107,26 @@ I am developing this website using HTML, CSS, Bootstrap, JavaScript, and jQuery.
     </div>
   </div>
 </div>
-    
+
+        <!-- Fishing Modal -->
+<div class="modal fade fishing-modal" tabindex="-1" role="dialog" aria-labelledby="fishingModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Fishing Map</h4>
+      </div>
+      <div class="modal-body">
+		                    <p>Built this web app to display a map of lakes that my boyfriend and I have fished at, and how many fish were caught each trip. It's a single-page web application, built using the Knockout framework, that displays a Google Map of an area and all of the lakes we have visited. Users can search all included lakes and, when a marker is selected, additional information about a lake is presented from the FourSquare API. There's also custom map styling and custom marker changes. Trip data appears at the bottom of the info window when it's open.
+                    </p>
+          <p>Technologies Used: JavaScript, jQuery, Knockout, API services, AJAX, version control</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
     
 	<script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
