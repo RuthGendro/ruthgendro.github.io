@@ -119,6 +119,10 @@ ul.topnav li a:hover {background-color: #c9d6e0;}
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
 
+.portfolio-img {
+	cursor: pointer;
+}
+
 /*Responsive Styling*/
 
 @media screen and (max-width:680px) {
